@@ -7,10 +7,11 @@ body{
 }
 
 .home_div{
+    border: 1px solid red;
     width: 95%;
-    margin: 10px auto;
+    margin: 50px auto 0px auto;
     display: flex;
-    height: 90vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
@@ -20,9 +21,10 @@ body{
 }
 
 .nest_div{
+    border: 1px solid green;
     display: flex;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
 }
 
 .text{
@@ -52,8 +54,8 @@ body{
 }
 
 .photo{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     /* border: 1px solid green; */
 }
 
@@ -65,6 +67,7 @@ body{
 
 @media only screen and (max-width:1130px){
     .home_div{
+        margin-top: 20px;
         width: 100%;
         height: 100%;
     }

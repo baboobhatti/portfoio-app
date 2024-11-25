@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       </div>
       <div className="profile nest_div">
-       <Image className="photo" src='/images/faceBimage-removebg.png' alt='photo' width={500} height={500}/>
+       <Image className="photo" src='/images/faceBimage-removebg.png' alt='photo' width={400} height={400}/>
       </div>
           
     </div>
