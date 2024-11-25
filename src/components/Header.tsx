@@ -7,11 +7,6 @@ const Header = () => {
   
   const [navbar, setNavbar] = useState(false);
   
-  const menue = () => {
-    setNavbar(!navbar);
-  };
-
-
   return (
     <>
       <div className='hmain'>
@@ -32,7 +27,6 @@ const Header = () => {
            ☰
         </button>
         </div> 
-
         </div>      
     </>
   )
