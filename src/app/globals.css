@@ -7,11 +7,11 @@ body{
 }
 
 .home_div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 95%;
     margin: 50px auto 0px auto;
     display: flex;
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
@@ -21,10 +21,10 @@ body{
 }
 
 .nest_div{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
 }
 
 .text{
