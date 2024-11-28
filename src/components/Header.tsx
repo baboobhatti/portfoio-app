@@ -15,9 +15,9 @@ const Header = () => {
       <div className={`${navbar ? 'sdivlinks': 'divlinks'} divlinks`}>
        <ul className='routes'>
         <li><Link className='links' href='/'>Home</Link></li>
-        <li><Link className='links' href='/'>Projects</Link></li> 
-        <li><Link className='links' href='/about'>About</Link></li>
-        <li><Link className='links' href='/contact'>Contac</Link></li>
+        <li><Link className='links' href='../projects'>Projects</Link></li> 
+        <li><Link className='links' href='../about'>About</Link></li>
+        <li><Link className='links' href='../contact'>Contact</Link></li>
        </ul>
       </div>
       <div className='menudiv'>
