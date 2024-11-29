@@ -5,8 +5,9 @@ import "../styling/projects.css";
 const projects = () => {
   return (
     <>
-    <div>
-      <h1>My Projects</h1>
+    
+    <div className= "proj_main">
+      <h1 className= "proj_h1">Getting Ready</h1>
       </div>
     </>
   )
